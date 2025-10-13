@@ -1,6 +1,8 @@
 # LLM-in-Psy
 A curated list of papers, projects, and resources at the intersection of large language models and mental health support.
 
+[中文版本](README_zh.md)
+
 ## 2025
 
   * **MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions**
