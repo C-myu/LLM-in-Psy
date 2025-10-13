@@ -55,6 +55,12 @@
 
 ## 2024
 
+  * **MDD-5k: A New Diagnostic Conversation Dataset for Mental Disorders Synthesized via Neuro-Symbolic LLM Agents**
+
+    > Source: AAAI2025 / arXiv (2024.11) [[Link]](https://arxiv.org/abs/2408.12142)
+    
+    构建了目前规模最大的心理疾病诊断对话数据集 MDD-5k。该数据集通过神经-符号混合的多智能体框架生成，利用 1000 个真实匿名化的精神科病例，合成了 5000 条高质量、内容详实的医患诊断对话，并附有诊断结论和治疗建议等标签。这是首个带标注的中文心理障碍诊断对话数据集。人工评估显示，MDD-5k 数据集中合成的对话在很大程度上模拟了人类精神科诊断过程。
+
   * **Structured Dialogue System for Mental Health: An LLM Chatbot Leveraging the PM+ Guidelines**
     
     > 来源：ICSR 2024 / arXiv (2024.11) [[链接]](https://arxiv.org/abs/2411.10681)
@@ -94,6 +100,8 @@
   * **EmoLLM**
     
     > 来源：(2024) [[链接]](https://github.com/SmartFlowAI/EmoLLM)
+
+    EmoLLM 是由 SmartFlowAI 开源的一系列心理健康对话大模型。通过在大模型上进行指令微调，EmoLLM 模型具备理解用户-支持用户-帮助用户的心理辅导能力，可以为用户提供情感支持与心理健康建议。目前已开源的模型配置及数据集旨在推动该领域的发展，鼓励社区在模型能力和安全性方面持续优化。
 
 -----
 

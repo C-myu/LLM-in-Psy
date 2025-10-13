@@ -57,6 +57,12 @@ A curated list of papers, projects, and resources at the intersection of large l
 
 ## 2024
 
+  * **MDD-5k: A New Diagnostic Conversation Dataset for Mental Disorders Synthesized via Neuro-Symbolic LLM Agents**
+
+    > Source: AAAI2025 / arXiv (2024.11) [[Link]](https://arxiv.org/abs/2408.12142)
+    
+    MDD-5k is the largest dataset of mental illness diagnostic dialogues to date. Generated using a hybrid neural-symbolic multi-agent framework, this dataset uses 1,000 real, anonymized psychiatric cases to synthesize 5,000 high-quality, detailed doctor-patient diagnostic dialogues, complete with labels such as diagnostic conclusions and treatment recommendations. This is the first annotated dataset of mental disorder diagnostic dialogues in Chinese. Human evaluation has shown that the synthesized dialogues in MDD-5k closely mimic the human psychiatric diagnostic process, providing a valuable resource for AI research in mental illness diagnosis.
+
   * **Structured Dialogue System for Mental Health: An LLM Chatbot Leveraging the PM+ Guidelines**
     
     > Source: ICSR 2024 / arXiv (2024.11) [[Link]](https://arxiv.org/abs/2411.10681)
@@ -97,6 +103,8 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     > Source: (2024) [[Link]](https://github.com/SmartFlowAI/EmoLLM)
 
+    EmoLLM is a series of large-scale mental health dialogue models open-sourced by SmartFlowAI. By fine-tuning instructions on these large-scale models, EmoLLM models are equipped with the psychological counseling capabilities to understand, support, and help users, providing emotional support and mental health advice. The open-source model configurations and datasets aim to promote development in this field and encourage the community to continuously optimize model capabilities and security.
+    
 -----
 
 ## 2023
