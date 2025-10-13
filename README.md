@@ -5,6 +5,12 @@ A curated list of papers, projects, and resources at the intersection of large l
 
 ## 2025
 
+  * **CATCH: A Novel Data Synthesis Framework for High Therapy Fidelity and Memory-Driven Planning Chain of Thought in AI Counseling**
+
+    > Source: EMNLP 2025 Findings [[Link]](https://arxiv.org/abs/2509.25733)
+    
+    The CATCH framework aims to address the challenges in existing AI consultation research, the low fidelity of treatment and the inability to capture the decision-making principles behind each response due to the one-time generation of multiple dialogue samples. It consists of two core components: a progressive dialogue synthesis strategy and a memory-driven dynamic planning (MDP) thinking model.
+
   * **MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions**
     
     > Source: arXiv (2025.09.04) [[Link]](https://arxiv.org/abs/2509.04183)

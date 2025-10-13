@@ -3,6 +3,12 @@
 
 ## 2025
 
+  * **CATCH: A Novel Data Synthesis Framework for High Therapy Fidelity and Memory-Driven Planning Chain of Thought in AI Counseling**
+
+    > Source: EMNLP 2025 Findings [[Link]](https://arxiv.org/abs/2509.25733)
+    
+    旨在解决现有AI咨询研究中，一次性生成多轮对话样本导致治疗保真度低和无法捕捉每个回应背后决策原理的挑战。CATCH框架包含两个核心组成部分：渐进式对话合成（Progressive Dialogue Synthesis）策略和记忆驱动的动态规划（Memory-Driven Dynamic Planning, MDP）思维模式。
+
   * **MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions**
     
     > 来源：arXiv (2025.09.04) [[链接]](https://arxiv.org/abs/2509.04183)
