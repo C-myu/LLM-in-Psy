@@ -13,7 +13,7 @@
     
     > 来源：arxiv  (2025.03.20) [[链接]](https://arxiv.org/abs/2503.15876) Work in Progress
     
-    根据您的描述，这是一个与CATCH框架类似，关注阶段感知和深度思考的情感支持智能体系统，目前可能仍在研究中。
+    关注阶段感知和深度思考的情感支持智能体系统，目前可能仍在研究中。
 
   * **Psy-Insight: Explainable Multi-turn Bilingual Dataset for Mental Health Counseling**
     

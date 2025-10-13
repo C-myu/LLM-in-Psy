@@ -15,7 +15,7 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     > Source: arxiv  (2025.03.20) [[Link]](https://arxiv.org/abs/2503.15876) Work in Progress
     
-    Based on your description, this is an emotional support agent system similar to the CATCH framework that focuses on stage awareness and deep thinking, and may still be under development.
+    This is an emotional support agent system that focuses on stage awareness and deep thinking, and may still be under development.
 
   * **Psy-Insight: Explainable Multi-turn Bilingual Dataset for Mental Health Counseling**
     
