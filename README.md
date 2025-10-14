@@ -11,6 +11,12 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     The CATCH framework aims to address the challenges in existing AI consultation research, the low fidelity of treatment and the inability to capture the decision-making principles behind each response due to the one-time generation of multiple dialogue samples. It consists of two core components: a progressive dialogue synthesis strategy and a memory-driven dynamic planning (MDP) thinking model.
 
+  * **CRISP: Cognitive Restructuring of Negative Thoughts through Multi-turn Supportive Dialogues**
+    
+    > Source: EMNLP 2025 Main / arXiv (2504.17238) [[Link]](https://arxiv.org/abs/2504.17238)
+    
+    Addresses the cognitive restructuring (CR) process in psychotherapy by proposing an innovative dialogue framework CRDial. This framework creates multi-turn dialogues through carefully designed identification and restructuring stages, and generates a large-scale, high-quality bilingual dialogue dataset Crisp for training cognitive restructuring dialogue large model Crispers.
+
   * **MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions**
     
     > Source: arXiv (2025.09.04) [[Link]](https://arxiv.org/abs/2509.04183)
@@ -34,12 +40,6 @@ A curated list of papers, projects, and resources at the intersection of large l
     > Source: arXiv (2025.01.16) [[Link]](https://arxiv.org/abs/2501.09426)
     
     Proposes an autonomous multi-agent framework AutoCBT for cognitive behavioral therapy (CBT). The framework utilizes single-turn counseling data similar to Quora and壹心理 (Yixinli), building a general agent framework capable of generating high-quality responses in single-turn counseling scenarios, and introduces dynamic routing and supervision mechanisms to improve the quality of automated psychological counseling services.
-
-  * **CRISP: Cognitive Restructuring of Negative Thoughts through Multi-turn Supportive Dialogues**
-    
-    > Source: EMNLP 2025 Main / arXiv (2504.17238) [[Link]](https://arxiv.org/abs/2504.17238)
-    
-    Addresses the cognitive restructuring (CR) process in psychotherapy by proposing an innovative dialogue framework CRDial. This framework creates multi-turn dialogues through carefully designed identification and restructuring stages, and generates a large-scale, high-quality bilingual dialogue dataset Crisp for training cognitive restructuring dialogue large model Crispers.
 
   * **PsyDT: Using LLMs to Construct the Digital Twin of Psychological Counselor with Personalized Counseling Style for Psychological Counseling**
     
@@ -69,6 +69,12 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     Addresses the common problem that existing psychological counseling large models generally ignore the inherent stages of dialogue by proposing a stage-aware counseling dialogue system SuDoSys based on the World Health Organization's (WHO) PM+ (Problem Management Plus) guidelines. The system ensures better consistency and directionality in dialogues through modules such as stage controllers and topic databases.
 
+    * **PATIENT-𝜓: Using Large Language Models to Simulate Patients for Training Mental Health Professionals**
+    
+    > Source: EMNLP 2024 Main [[Link]](https://aclanthology.org/2024.emnlp-main.711/)
+    
+    PATIENT-Ψ is a framework for training mental health professionals in cognitive behavioral therapy (CBT) by simulating patients using large language models (LLMs). By constructing a diverse patient cognitive model based on CBT principles and combining it with LLMs, we created PATIENT-Ψ, which can simulate the communication behaviors of real patients.
+
   * **CACTUS: Towards Psychological Counseling Conversations using Cognitive Behavioral Theory**
     
     > Source: EMNLP 2024 Findings [[Link]](https://aclanthology.org/2024.findings-emnlp.832/)
@@ -80,6 +86,12 @@ A curated list of papers, projects, and resources at the intersection of large l
     > Source: EMNLP 2024 Findings [[Link]](https://aclanthology.org/2024.findings-emnlp.34/)
     
     Proposes the SMILE method, using ChatGPT to rewrite and expand public single-turn mental health Q&A (QA) data into multi-turn dialogues. This method constructs a large-scale dataset SMILECHAT containing 56,000 multi-turn dialogues, aiming to provide corpus close to real scenarios for model fine-tuning.
+
+  * **NoteChat: A Dataset of Synthetic Patient-Physician Conversations Conditioned on Clinical Notes**
+      
+    > 来源：ACL 2024 Findings [[链接]](https://aclanthology.org/2024.findings-acl.901/)
+      
+    Clinical documentation is a labor-intensive process currently performed primarily by physicians, leading to physician burnout. Existing language models perform poorly in generating physician-patient conversations or corresponding electronic health records (EHRs). We propose a novel framework that leverages LLMs to generate physician-patient conversations through structured role-playing and strategic prompting to improve the efficiency and consistency of conversation generation.
 
   * **CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling**
     
@@ -99,12 +111,18 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     Addresses the lack of interpretability in emotional support dialogue systems by proposing an ESCoT generation scheme. This scheme mimics the human process of "emotion recognition - emotion understanding - emotion regulation" by constructing a new dataset with chain-of-thought (Chain-of-Thought) to enhance the interpretability and reliability of dialogue system responses.
 
+  * **Towards Conversational Diagnostic AI**
+    
+    > 来源：arxiv  (2024.01.11) [[链接]](https://arxiv.org/abs/2401.05654) 
+    
+    AMIE (Articulate Medical Intelligence Explorer) is an LLM-based AI system optimized for diagnostic conversations. AMIE leverages a self-playing simulation environment and automated feedback mechanisms to scale its learning across diverse disease conditions, specialties, and contexts. The paper also designed a framework to evaluate AMIE's performance across clinically relevant axes, including history taking, diagnostic accuracy, managerial reasoning, communication skills, and empathy.
+
   * **EmoLLM**
     
     > Source: (2024) [[Link]](https://github.com/SmartFlowAI/EmoLLM)
 
     EmoLLM is a series of large-scale mental health dialogue models open-sourced by SmartFlowAI. By fine-tuning instructions on these large-scale models, EmoLLM models are equipped with the psychological counseling capabilities to understand, support, and help users, providing emotional support and mental health advice. The open-source model configurations and datasets aim to promote development in this field and encourage the community to continuously optimize model capabilities and security.
-    
+  
 -----
 
 ## 2023

@@ -9,6 +9,12 @@
     
     旨在解决现有AI咨询研究中，一次性生成多轮对话样本导致治疗保真度低和无法捕捉每个回应背后决策原理的挑战。CATCH框架包含两个核心组成部分：渐进式对话合成（Progressive Dialogue Synthesis）策略和记忆驱动的动态规划（Memory-Driven Dynamic Planning, MDP）思维模式。
 
+  * **CRISP: Cognitive Restructuring of Negative Thoughts through Multi-turn Supportive Dialogues**
+    
+    > 来源：EMNLP 2025 Main / arXiv (2504.17238) [[链接]](https://arxiv.org/abs/2504.17238)
+    
+    针对认知重构（Cognitive Restructuring, CR）这一心理治疗过程，提出了一个创新的对话框架 CRDial。该框架通过精心设计的识别与重构阶段来创建多轮对话，并由此生成了一个大规模、高质量的双语对话数据集 Crisp，用于训练认知重构对话大模型 Crispers。
+
   * **MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions**
     
     > 来源：arXiv (2025.09.04) [[链接]](https://arxiv.org/abs/2509.04183)
@@ -32,12 +38,6 @@
     > 来源：arXiv (2025.01.16) [[链接]](https://arxiv.org/abs/2501.09426)
     
     提出了一个面向认知行为疗法（CBT）的自主多智能体框架 AutoCBT。该框架利用类似Quora和壹心理的单轮咨询数据，构建了一个能在单轮咨询场景中生成高质量回复的通用智能体框架，并引入了动态路由和监督机制，以提升自动化心理咨询服务的质量。
-
-  * **CRISP: Cognitive Restructuring of Negative Thoughts through Multi-turn Supportive Dialogues**
-    
-    > 来源：EMNLP 2025 Main / arXiv (2504.17238) [[链接]](https://arxiv.org/abs/2504.17238)
-    
-    针对认知重构（Cognitive Restructuring, CR）这一心理治疗过程，提出了一个创新的对话框架 CRDial。该框架通过精心设计的识别与重构阶段来创建多轮对话，并由此生成了一个大规模、高质量的双语对话数据集 Crisp，用于训练认知重构对话大模型 Crispers。
 
   * **PsyDT: Using LLMs to Construct the Digital Twin of Psychological Counselor with Personalized Counseling Style for Psychological Counseling**
     
@@ -67,6 +67,12 @@
     
     针对现有心理咨询大模型普遍忽略对话内在阶段性的问题，提出了一个基于世界卫生组织（WHO）PM+（问题管理+）指南构建的阶段感知咨询对话系统 SuDoSys。该系统通过阶段控制器、话题数据库等模块，确保对话具有更好的一致性和导向性。
 
+  * **PATIENT-𝜓: Using Large Language Models to Simulate Patients for Training Mental Health Professionals**
+    
+    > Source: EMNLP 2024 Main [[Link]](https://aclanthology.org/2024.emnlp-main.711/)
+    
+    提出了PATIENT-Ψ，这是一个利用大型语言模型（LLMs）模拟患者以训练心理健康专业人士进行认知行为疗法（CBT）的新框架。通过构建基于CBT原则的多样化患者认知模型，并将其与LLMs结合，创建了能够模拟真实患者沟通行为的PATIENT-Ψ。
+
   * **CACTUS: Towards Psychological Counseling Conversations using Cognitive Behavioral Theory**
     
     > 来源：EMNLP 2024 Findings [[链接]](https://aclanthology.org/2024.findings-emnlp.832/)
@@ -78,6 +84,12 @@
     > 来源：EMNLP 2024 Findings [[链接]](https://aclanthology.org/2024.findings-emnlp.34/)
     
     提出了 SMILE 方法，通过使用 ChatGPT 将公开的单轮心理健康问答（QA）数据改写和扩展为多轮对话。该方法构建了一个包含5.6万个多轮对话的大规模数据集 SMILECHAT，旨在为模型微调提供接近真实场景的语料库。
+
+  * **NoteChat: A Dataset of Synthetic Patient-Physician Conversations Conditioned on Clinical Notes**
+      
+    > 来源：ACL 2024 Findings [[链接]](https://aclanthology.org/2024.findings-acl.901/)
+      
+    临床文档记录是一个劳动密集型过程，目前主要由医生完成，这导致了医生的职业倦怠。现有的语言模型在生成医患交流对话或相应的电子健康记录（EHRs）方面表现不佳。提出了一个新颖的框架，通过结构化的角色扮演和策略性提示，利用LLMs生成医患对话，以提高对话生成的效率和一致性。
 
   * **CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling**
     
@@ -96,6 +108,12 @@
     > 来源：ACL 2024 Main [[链接]](https://aclanthology.org/2024.acl-long.723/)
     
     针对情感支持对话系统缺乏可解释性的问题，提出了一个名为 ESCoT 的生成方案。该方案模仿人类"识别情绪-理解情绪-调节情绪"的过程，通过构建带有思维链（Chain-of-Thought）的新数据集，旨在增强对话系统响应的可解释性和可靠性。
+
+  * **Towards Conversational Diagnostic AI**
+    
+    > 来源：arxiv  (2024.01.11) [[链接]](https://arxiv.org/abs/2401.05654) 
+    
+    AMIE（Articulate Medical Intelligence Explorer）是一个基于LLM的AI系统，专门针对诊断对话进行优化。AMIE通过一个自博弈模拟环境和自动化反馈机制来扩展其在不同疾病条件、专业和上下文中的学习。论文还设计了一个框架来评估AMIE在临床意义上的性能轴，包括病史采集、诊断准确性、管理推理、沟通技巧和同理心。
 
   * **EmoLLM**
     
