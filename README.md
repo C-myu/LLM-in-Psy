@@ -69,11 +69,17 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     Addresses the common problem that existing psychological counseling large models generally ignore the inherent stages of dialogue by proposing a stage-aware counseling dialogue system SuDoSys based on the World Health Organization's (WHO) PM+ (Problem Management Plus) guidelines. The system ensures better consistency and directionality in dialogues through modules such as stage controllers and topic databases.
 
+  * **Interactive Agents: Simulating Counselor-Client Psychological Counseling via Role-Playing LLM-to-LLM Interactions**
+    
+    > 来源：arXiv (2024.08.24) [[链接]](https://arxiv.org/abs/2408.15787)
+    
+    This paper propose a LLM-to-LLM interaction framework, where one LLM simulates the client and the other simulates an experienced consultant. We use the GPT-4 model to simulate multiple consultation rounds between consultants and clients using zero-shot prompts to collect a dataset.
+
     * **PATIENT-𝜓: Using Large Language Models to Simulate Patients for Training Mental Health Professionals**
     
     > Source: EMNLP 2024 Main [[Link]](https://aclanthology.org/2024.emnlp-main.711/)
     
-    PATIENT-Ψ is a framework for training mental health professionals in cognitive behavioral therapy (CBT) by simulating patients using large language models (LLMs). By constructing a diverse patient cognitive model based on CBT principles and combining it with LLMs, we created PATIENT-Ψ, which can simulate the communication behaviors of real patients.
+    PATIENT-𝜓 is a framework for training mental health professionals in cognitive behavioral therapy (CBT) by simulating patients using large language models (LLMs). By constructing a diverse patient cognitive model based on CBT principles and combining it with LLMs, we created PATIENT-𝜓, which can simulate the communication behaviors of real patients.
 
   * **CACTUS: Towards Psychological Counseling Conversations using Cognitive Behavioral Theory**
     
@@ -98,6 +104,13 @@ A curated list of papers, projects, and resources at the intersection of large l
     > Source: ACL 2024 Findings [[Link]](https://aclanthology.org/2024.findings-acl.830/)
     
     Proposes a framework CPsyCoun for reconstructing multi-turn dialogues based on Chinese psychological counseling reports. This work not only constructs a high-quality dialogue dataset but also develops an evaluation benchmark including AI automatic scoring for effectively evaluating multi-turn psychological counseling processes.
+
+  * **PsyChat: A Client-Centric Dialogue System for Mental Health Support**
+    
+    > Source: CSCWD 2024 [[Link]](https://arxiv.org/abs/2312.04262)
+    
+    This work propose a client-centric conversational system called PsyChat, designed to provide mental health support through online chat. PsyChat consists of five modules: client behavior recognition, consultation strategy selection, input packager, response generator, and response selection. It aims to dynamically understand user behavior and generate the most appropriate responses during real-world user interactions.
+
 
   * **Enhancing Psychotherapy Counseling: A Data Augmentation Pipeline Leveraging Large Language Models for Counseling Conversations**
     
