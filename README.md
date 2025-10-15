@@ -1,8 +1,8 @@
 # LLM-in-Psy 🧠💬
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/your-username/LLM-in-Psy/pulls)
-[![GitHub stars](https://img.shields.io/github/stars/your-username/LLM-in-Psy.svg?style=social)](https://github.com/your-username/LLM-in-Psy/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/C-myu/LLM-in-Psy/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/C-myu/LLM-in-Psy.svg?style=social)](https://github.com/C-myu/LLM-in-Psy/stargazers)
 
 A curated list of papers, projects, and resources at the intersection of large language models and mental health support. 
 
