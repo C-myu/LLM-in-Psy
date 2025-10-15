@@ -1,16 +1,14 @@
 # LLM-in-Psy 🧠💬
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/C-myu/LLM-in-Psy/pulls)
-[![GitHub stars](https://img.shields.io/github/stars/C-myu/LLM-in-Psy.svg?style=social)](https://github.com/C-myu/LLM-in-Psy/stargazers)
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+  <a href="https://github.com/C-myu/LLM-in-Psy/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
+  <a href="https://github.com/C-myu/LLM-in-Psy/stargazers"><img src="https://img.shields.io/github/stars/C-myu/LLM-in-Psy.svg?style=social"></a>
+</p>
+
+\[ [中文](./README_zh.md) | English \]
 
 A curated list of papers, projects, and resources at the intersection of large language models and mental health support. 
-
-## 📚 Navigation
-
-- 🇨🇳 [中文版本](README_zh.md) - Chinese version of this repository
-- 🔍 Use the table of contents to navigate through different years and topics
-- 🏷️ Look for tags to quickly identify resource types and focus areas
 
 ## 2025
 
@@ -227,6 +225,9 @@ A curated list of papers, projects, and resources at the intersection of large l
 
 ## 2023
 
+<details>
+<summary>Click to expand</summary>
+
   * **SoulChat: Improving LLMs' Empathy, Listening, and Comfort Abilities through Fine-tuning with Multi-turn Empathy Conversations**
 
     ![Data collection](https://img.shields.io/badge/Data_Collection-deepskyblue)
@@ -244,3 +245,6 @@ A curated list of papers, projects, and resources at the intersection of large l
     > Source: East China University of Science and Technology (2023) [[Link]](https://github.com/X-D-Lab/MindChat)
     
     Trained with approximately 200,000 high-quality multi-turn psychological dialogue data manually cleaned, covering multiple aspects including work, family, study, life, social interactions, and safety. Its purpose is to help people relieve psychological stress and solve psychological confusions from four dimensions: psychological counseling, psychological assessment, psychological diagnosis, and psychological treatment, thereby improving mental health levels.
+
+</details>
+  

@@ -1,5 +1,14 @@
-# LLM-in-Psy
-大语言模型和心理健康支持交叉领域的论文、项目和资源的精选列表。
+# LLM-in-Psy 🧠💬
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+  <a href="https://github.com/C-myu/LLM-in-Psy/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
+  <a href="https://github.com/C-myu/LLM-in-Psy/stargazers"><img src="https://img.shields.io/github/stars/C-myu/LLM-in-Psy.svg?style=social"></a>
+</p>
+
+\[ 中文 | [English]((./README.md)) \]
+
+大语言模型和心理健康支持交叉领域的论文、项目和资源列表。
 
 ## 2025
 
