@@ -1,9 +1,13 @@
 # LLM-in-Psy
+
 A curated list of papers, projects, and resources at the intersection of large language models and mental health support.
 
 [中文版本](README_zh.md)
 
 ## 2025
+
+<details>
+<summary>Click to expand</summary>
 
   * **CATCH: A Novel Data Synthesis Framework for High Therapy Fidelity and Memory-Driven Planning Chain of Thought in AI Counseling**
 
@@ -83,9 +87,14 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     For the first time, focuses research attention on the importance of "supporter intentions" in emotional support dialogues. The paper proposes the IntentionESC framework, defines potential intentions of supporters, and designs the ICECoT (Intention-Centered Chain-of-Thought) mechanism, enabling LLMs to mimic humans' reasoning process of analyzing emotional states, inferring intentions, and selecting strategies to generate more effective supportive responses.
 
+</details>
+
 -----
 
 ## 2024
+
+<details>
+<summary>Click to expand</summary>
 
   * **MDD-5k: A New Diagnostic Conversation Dataset for Mental Disorders Synthesized via Neuro-Symbolic LLM Agents**
 
@@ -203,6 +212,8 @@ A curated list of papers, projects, and resources at the intersection of large l
     > Source: (2024) [[Link]](https://github.com/SmartFlowAI/EmoLLM)
 
     EmoLLM is a series of large-scale mental health dialogue models open-sourced by SmartFlowAI. By fine-tuning instructions on these large-scale models, EmoLLM models are equipped with the psychological counseling capabilities to understand, support, and help users, providing emotional support and mental health advice. The open-source model configurations and datasets aim to promote development in this field and encourage the community to continuously optimize model capabilities and security.
+
+</details>
   
 -----
 
