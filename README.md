@@ -56,6 +56,16 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     Addresses the cognitive restructuring (CR) process in psychotherapy by proposing an innovative dialogue framework CRDial. This framework creates multi-turn dialogues through carefully designed identification and restructuring stages, and generates a large-scale, high-quality bilingual dialogue dataset Crisp for training cognitive restructuring dialogue large model Crispers.
 
+  * **Toward Real-World Chinese Psychological Support Dialogues: CPsDD Dataset and a Co-Evolving Multi-Agent System**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
+
+    > Source: arxiv  (2025.03.20) [[Link]](https://arxiv.org/abs/2507.07509)
+    
+    To address the problems of scarcity of Chinese psychological counseling dialogue data and the "routinized" responses of existing large models, this work constructed a large-scale, high-quality Chinese Psychological Support Dialogue Dataset (CPSDD) by combining expert knowledge and large-scale language models, and proposed a dialogue system (CADSS) consisting of four intelligent agents (Profiler, Summarizer, Planner, Supporter) to provide more accurate and empathetic psychological support.
+
   * **DeepPsy-Agent: A Stage-Aware and Deep-Thinking Emotional Support Agent System**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)

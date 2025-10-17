@@ -53,6 +53,16 @@
     
     针对认知重构（Cognitive Restructuring, CR）这一心理治疗过程，提出了一个创新的对话框架 CRDial。该框架通过精心设计的识别与重构阶段来创建多轮对话，并由此生成了一个大规模、高质量的双语对话数据集 Crisp，用于训练认知重构对话大模型 Crispers。
 
+  * **Toward Real-World Chinese Psychological Support Dialogues: CPsDD Dataset and a Co-Evolving Multi-Agent System**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
+
+    > 来源: arxiv  (2025.03.20) [[链接]](https://arxiv.org/abs/2507.07509)
+    
+    为解决中文心理咨询对话数据稀缺且现有大模型回复“套路化”的问题，该研究通过结合专家知识和大型语言模型，构建了一个大规模、高质量的中文心理支持对话数据集（CPSDD），并提出了一个由四个智能体（Profiler、Summarizer、Planner、Supporter）协作的对话系统（CADSS），以提供更精准、更具共情能力的心理支持。
+
   * **DeepPsy-Agent: A Stage-Aware and Deep-Thinking Emotional Support Agent System**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
