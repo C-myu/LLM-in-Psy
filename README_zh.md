@@ -12,6 +12,26 @@
 
 ## 2025
 
+  * **MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions**
+    
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > 来源：arXiv (2025.09.04) [[链接]](https://arxiv.org/abs/2509.04183)
+    
+    提出一个新颖的多智能体框架 MAGneT，用于生成合成的心理咨询对话。该框架将咨询师的回应生成任务分解为由多个专业化的LLM智能体（分别负责反映、提问、提供解决方案等关键心理技术）协同处理的子任务，以更好地捕捉真实咨询的结构和细微差别。
+
+    * **DiaCBT: A Long-Periodic Dialogue Corpus Guided by Cognitive Conceptualization Diagram for CBT-based Psychological Counseling**
+    
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > 来源：arXiv (2025.09.03) [[链接]](http://arxiv.org/abs/2509.02999)
+    
+    构建了DiaCBT包含多次会谈的心理咨询对话数据集，引入认知概念图来模拟更加真实的来访者，并基于人工标注的真实CBT对话案例作为few-shot来指导模型进行数据的合成。
+
   * **CATCH: A Novel Data Synthesis Framework for High Therapy Fidelity and Memory-Driven Planning Chain of Thought in AI Counseling** 
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
@@ -32,16 +52,6 @@
     > 来源：EMNLP 2025 Main / arXiv (2504.17238) [[链接]](https://arxiv.org/abs/2504.17238)
     
     针对认知重构（Cognitive Restructuring, CR）这一心理治疗过程，提出了一个创新的对话框架 CRDial。该框架通过精心设计的识别与重构阶段来创建多轮对话，并由此生成了一个大规模、高质量的双语对话数据集 Crisp，用于训练认知重构对话大模型 Crispers。
-
-  * **MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions**
-    
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
-
-    > 来源：arXiv (2025.09.04) [[链接]](https://arxiv.org/abs/2509.04183)
-    
-    提出一个新颖的多智能体框架 MAGneT，用于生成合成的心理咨询对话。该框架将咨询师的回应生成任务分解为由多个专业化的LLM智能体（分别负责反映、提问、提供解决方案等关键心理技术）协同处理的子任务，以更好地捕捉真实咨询的结构和细微差别。
 
   * **DeepPsy-Agent: A Stage-Aware and Deep-Thinking Emotional Support Agent System**
 
@@ -70,6 +80,16 @@
     > 来源：arXiv (2025.01.16) [[链接]](https://arxiv.org/abs/2501.09426)
     
     提出了一个面向认知行为疗法（CBT）的自主多智能体框架 AutoCBT。该框架利用类似Quora和壹心理的单轮咨询数据，构建了一个能在单轮咨询场景中生成高质量回复的通用智能体框架，并引入了动态路由和监督机制，以提升自动化心理咨询服务的质量。
+
+  * **PsyDial: A Large-scale Long-term Conversational Dataset for Mental Health Support**
+    
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > 来源：ACL 2025 Main [[链接]](https://aclanthology.org/2025.acl-long.1049/)
+    
+    提出了一种名为 RMRR (Retrieve, Mask, Reconstruct, Refine) 的新方法。该方法首先检索与原始对话相关的公开“主诉”信息，然后完全遮蔽真实对话中涉及隐私的来访者话语，接着利用大语言模型（LLM）根据检索到的主诉和咨询师的对话内容，重新构建来访者的话语，最后再对咨询师的话语进行优化，以确保对话的流畅性和相关性。通过这种方式，他们创建了一个名为 PsyDial 的大规模、保护隐私的半真实对话数据集。
 
   * **PsyDT: Using LLMs to Construct the Digital Twin of Psychological Counselor with Personalized Counseling Style for Psychological Counseling**
     
@@ -224,6 +244,16 @@
     > 来源：EMNLP 2023 Findings [[链接]](https://aclanthology.org/anthology-files/pdf/findings/2023.findings-emnlp.83.pdf)
     
     一个专注于提升大模型共情能力、倾听和安慰能力的心理健康大模型。通过百万规模的中文长文本指令和多轮共情对话数据进行联合指令微调，显著增强了模型的多轮共情对话能力。
+
+
+    * **Understanding Client Reactions in Online Mental Health Counseling**
+
+    ![Data collection](https://img.shields.io/badge/Data_Collection-deepskyblue)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > 来源: ACL 2023 Main [[链接]](https://aclanthology.org/2023.acl-long.577/)
+    
+    这篇论文创建了一个标注框架，专门用来分类和理解来访者对咨询师话语的反应（如积极或消极）。通过在一个大型真实对话数据集上应用此框架，他们分析了来访者的不同反应如何影响最终咨询效果，以及咨询师应如何根据这些反应调整策略 。
 
   * **MindChat**
 

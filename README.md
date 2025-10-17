@@ -15,6 +15,26 @@ A curated list of papers, projects, and resources at the intersection of large l
 <details>
 <summary>Click to expand</summary>
 
+  * **MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > Source: arXiv (2025.09.04) [[Link]](https://arxiv.org/abs/2509.04183)
+    
+    Proposes a novel multi-agent framework MAGneT for generating synthetic mental health counseling dialogues. The framework decomposes the counselor's response generation task into subtasks collaboratively handled by multiple specialized LLM agents (responsible for reflecting, questioning, providing solutions, and other key psychological techniques) to better capture the structure and nuances of real counseling sessions.
+
+  * **DiaCBT: A Long-Periodic Dialogue Corpus Guided by Cognitive Conceptualization Diagram for CBT-based Psychological Counseling**
+    
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > Source：arXiv (2025.09.03) [[Link]](http://arxiv.org/abs/2509.02999)
+    
+    This work constructed a DiaCBT psychological counseling dialogue dataset consisting of multiple sessions was constructed. Cognitive concept maps were introduced to simulate more realistic clients, and manually annotated real CBT dialogue cases were used as few-shots to guide the model in data synthesis.
+
   * **CATCH: A Novel Data Synthesis Framework for High Therapy Fidelity and Memory-Driven Planning Chain of Thought in AI Counseling**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
@@ -36,16 +56,6 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     Addresses the cognitive restructuring (CR) process in psychotherapy by proposing an innovative dialogue framework CRDial. This framework creates multi-turn dialogues through carefully designed identification and restructuring stages, and generates a large-scale, high-quality bilingual dialogue dataset Crisp for training cognitive restructuring dialogue large model Crispers.
 
-  * **MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions**
-
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
-
-    > Source: arXiv (2025.09.04) [[Link]](https://arxiv.org/abs/2509.04183)
-    
-    Proposes a novel multi-agent framework MAGneT for generating synthetic mental health counseling dialogues. The framework decomposes the counselor's response generation task into subtasks collaboratively handled by multiple specialized LLM agents (responsible for reflecting, questioning, providing solutions, and other key psychological techniques) to better capture the structure and nuances of real counseling sessions.
-
   * **DeepPsy-Agent: A Stage-Aware and Deep-Thinking Emotional Support Agent System**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
@@ -63,7 +73,7 @@ A curated list of papers, projects, and resources at the intersection of large l
 
     > Source: arXiv (2025.03.05) [[Link]](https://arxiv.org/abs/2503.03607)
     
-    Collects non-synthetic multi-turn bilingual counseling dialogues from sources such as blogs and books, constructing the first explainable multi-task bilingual dataset Psy-Insight for mental health. The dataset contains 520 English multi-turn counseling sessions and 431 Chinese multi-turn counseling sessions, providing rich materials for training large language models for mental health support. The collected dialogues are annotated with multiple tasks and dialogue process explanations, including psychotherapy, emotions, strategies, topic tags, as well as turn-level reasoning and session-level guidance. These annotations are not only suitable for label recognition tasks but also help large language models understand the analysis and logic behind counseling, meeting the chain-of-thought and multi-task learning needs of large language models.
+    This work collects non-synthetic multi-turn bilingual counseling dialogues from sources such as blogs and books, constructing the first explainable multi-task bilingual dataset Psy-Insight for mental health. The dataset contains 520 English multi-turn counseling sessions and 431 Chinese multi-turn counseling sessions, providing rich materials for training large language models for mental health support. The collected dialogues are annotated with multiple tasks and dialogue process explanations, including psychotherapy, emotions, strategies, topic tags, as well as turn-level reasoning and session-level guidance. These annotations are not only suitable for label recognition tasks but also help large language models understand the analysis and logic behind counseling, meeting the chain-of-thought and multi-task learning needs of large language models.
 
   * **AutoCBT: An Autonomous Multi-agent Framework for Cognitive Behavioral Therapy in Psychological Counseling**
 
@@ -73,6 +83,16 @@ A curated list of papers, projects, and resources at the intersection of large l
     > Source: arXiv (2025.01.16) [[Link]](https://arxiv.org/abs/2501.09426)
     
     Proposes an autonomous multi-agent framework AutoCBT for cognitive behavioral therapy (CBT). The framework utilizes single-turn counseling data similar to Quora and壹心理 (Yixinli), building a general agent framework capable of generating high-quality responses in single-turn counseling scenarios, and introduces dynamic routing and supervision mechanisms to improve the quality of automated psychological counseling services.
+
+  * **PsyDial: A Large-scale Long-term Conversational Dataset for Mental Health Support**
+    
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > Source：ACL 2025 Main [[Link]](https://aclanthology.org/2025.acl-long.1049/)
+    
+    This work proposed a new method called RMRR (Retrieve, Mask, Reconstruct, Refine). This method first retrieves public "chief complaint" information related to the original conversation, then completely masks the private client utterances from the real conversation. Then, using a large language model (LLM), they reconstruct the client's utterances based on the retrieved chief complaint and the counselor's conversation content. Finally, they optimized the counselor's utterances to ensure the fluency and relevance of the conversation. In this way, they created a large-scale, privacy-preserving dataset of semi-realistic conversations, called PsyDial.
 
   * **PsyDT: Using LLMs to Construct the Digital Twin of Psychological Counselor with Personalized Counseling Style for Psychological Counseling**
 
@@ -182,7 +202,6 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     This work propose a client-centric conversational system called PsyChat, designed to provide mental health support through online chat. PsyChat consists of five modules: client behavior recognition, consultation strategy selection, input packager, response generator, and response selection. It aims to dynamically understand user behavior and generate the most appropriate responses during real-world user interactions.
 
-
   * **Enhancing Psychotherapy Counseling: A Data Augmentation Pipeline Leveraging Large Language Models for Counseling Conversations**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
@@ -237,6 +256,15 @@ A curated list of papers, projects, and resources at the intersection of large l
     > Source: EMNLP 2023 Findings [[Link]](https://aclanthology.org/anthology-files/pdf/findings/2023.findings-emnlp.83.pdf)
     
     A mental health large model focused on enhancing the empathy, listening, and comforting abilities of large models. Through joint instruction fine-tuning with million-scale Chinese long-text instructions and multi-turn empathy dialogue data, it significantly enhances the model's multi-turn empathy dialogue capabilities.
+
+  * **Understanding Client Reactions in Online Mental Health Counseling**
+
+    ![Data collection](https://img.shields.io/badge/Data_Collection-deepskyblue)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > Source: ACL 2023 Main [[Link]](https://aclanthology.org/2023.acl-long.577/)
+    
+    This paper develops a annotation framework specifically designed to classify and understand the client's reactions (e.g., positive or negative) to counselors' utterances. By applying this framework to a large dataset of real-world conversations——Xinling, they analyze how different client reactions influence the final counseling outcome and how counselors can adjust their strategies based on these reactions.
 
   * **MindChat**
 
