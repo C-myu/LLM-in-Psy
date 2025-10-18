@@ -59,7 +59,7 @@
     ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
     ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
 
-    > 来源: arxiv  (2025.03.20) [[链接]](https://arxiv.org/abs/2507.07509)
+    > 来源: arxiv  (2025.07.10) [[链接]](https://arxiv.org/abs/2507.07509)
     
     为解决中文心理咨询对话数据稀缺且现有大模型回复“套路化”的问题，该研究通过结合专家知识和大型语言模型，构建了一个大规模、高质量的中文心理支持对话数据集（CPSDD），并提出了一个由四个智能体（Profiler、Summarizer、Planner、Supporter）协作的对话系统（CADSS），以提供更精准、更具共情能力的心理支持。
 

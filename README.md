@@ -62,7 +62,7 @@ A curated list of papers, projects, and resources at the intersection of large l
     ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
     ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
 
-    > Source: arxiv  (2025.03.20) [[Link]](https://arxiv.org/abs/2507.07509)
+    > Source: arxiv  (2025.07.10) [[Link]](https://arxiv.org/abs/2507.07509)
     
     To address the problems of scarcity of Chinese psychological counseling dialogue data and the "routinized" responses of existing large models, this work constructed a large-scale, high-quality Chinese Psychological Support Dialogue Dataset (CPSDD) by combining expert knowledge and large-scale language models, and proposed a dialogue system (CADSS) consisting of four intelligent agents (Profiler, Summarizer, Planner, Supporter) to provide more accurate and empathetic psychological support.
 
