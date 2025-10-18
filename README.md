@@ -160,7 +160,7 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     This paper propose a LLM-to-LLM interaction framework, where one LLM simulates the client and the other simulates an experienced consultant. We use the GPT-4 model to simulate multiple consultation rounds between consultants and clients using zero-shot prompts to collect a dataset.
 
-    * **PATIENT-𝜓: Using Large Language Models to Simulate Patients for Training Mental Health Professionals**
+  * **PATIENT-𝜓: Using Large Language Models to Simulate Patients for Training Mental Health Professionals**
 
     ![Patient simulation](https://img.shields.io/badge/Patient_Simulation-red)
     
