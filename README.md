@@ -28,7 +28,7 @@ A curated list of papers, projects, and resources at the intersection of large l
   * **DiaCBT: A Long-Periodic Dialogue Corpus Guided by Cognitive Conceptualization Diagram for CBT-based Psychological Counseling**
     
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
 
     > Source：arXiv (2025.09.03) [[Link]](http://arxiv.org/abs/2509.02999)

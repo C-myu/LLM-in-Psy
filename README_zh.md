@@ -22,10 +22,10 @@
     
     提出一个新颖的多智能体框架 MAGneT，用于生成合成的心理咨询对话。该框架将咨询师的回应生成任务分解为由多个专业化的LLM智能体（分别负责反映、提问、提供解决方案等关键心理技术）协同处理的子任务，以更好地捕捉真实咨询的结构和细微差别。
 
-    * **DiaCBT: A Long-Periodic Dialogue Corpus Guided by Cognitive Conceptualization Diagram for CBT-based Psychological Counseling**
+  * **DiaCBT: A Long-Periodic Dialogue Corpus Guided by Cognitive Conceptualization Diagram for CBT-based Psychological Counseling**
     
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
 
     > 来源：arXiv (2025.09.03) [[链接]](http://arxiv.org/abs/2509.02999)
