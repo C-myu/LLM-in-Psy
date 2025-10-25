@@ -15,7 +15,7 @@
   * **MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions**
     
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
 
     > 来源：arXiv (2025.09.04) [[链接]](https://arxiv.org/abs/2509.04183)
